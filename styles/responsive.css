@@ -1,27 +1,40 @@
 @media screen and (max-width: 768px) {
-    .banner-container, .flowers-container, .deal-container {
+
+    .banner-container,
+    .flowers-container,
+    .deal-container {
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
     }
+
     .deal-container {
         flex-direction: column-reverse;
     }
 
     .banner-text-container {
         width: 100%;
-        align-items: center;
+        align-items: start;
     }
 
-    .banner-img-container, .img-caption-container, .deal-child{
+    .banner-img-container,
+    .img-caption-container,
+    .deal-child {
         width: 80%;
         max-height: fit-content;
     }
-    .icons-container{
+
+    .icons-container {
         gap: 1.5rem;
     }
-    .icon-container{
-       width: 30%;
+
+    .icon-container {
+        width: 30%;
+    }
+
+    .insta-img-conatainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: .8rem;
     }
 }
 
@@ -32,24 +45,36 @@
         font-size: 3rem;
         text-align: center;
     }
-    .banner-img-container, .img-caption-container, .deal-child img{
+
+    .banner-text-container {
+        align-items: center;
+    }
+
+    .banner-img-container,
+    .img-caption-container,
+    .deal-child img {
         width: 100%;
         max-height: fit-content;
     }
-    .banner-text-container p{
+
+    .banner-text-container p {
         padding-right: 0;
     }
-    .flower-img-container{
+
+    .flower-img-container {
         height: 22rem;
     }
-    .flower-img-container img{
+
+    .flower-img-container img {
         object-fit: cover;
         height: auto;
     }
-    .icons-container{
+
+    .icons-container {
         flex-direction: column;
     }
-    .icon-container{
+
+    .icon-container {
         width: 100%;
-     }
+    }
 }
