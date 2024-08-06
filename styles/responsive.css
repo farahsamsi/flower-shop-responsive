@@ -36,6 +36,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap: .8rem;
     }
+    input{
+        min-width: 560px;
+    }
+    .latest-input-container {
+        margin-top: 0;
+    }
 }
 
 
@@ -69,12 +75,30 @@
         object-fit: cover;
         height: auto;
     }
+    .latest-input-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
 
-    .icons-container {
+    .icons-container, .latest-input-container {
         flex-direction: column;
     }
 
-    .icon-container {
+    .icon-container{
         width: 100%;
     }
+    input{
+        min-width: 300px;
+        margin: 0;
+    }
+    .latest-deal-main{
+        text-align: center;
+        background-position: left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    
+
 }
