@@ -1,9 +1,33 @@
 @media screen and (max-width: 768px) {
-    
+    .banner-container{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+
+    }
+    .banner-text-container{
+        width: 100%;
+        align-items: center;
+    }
+
+    .banner-img-container{
+        width: 80%;
+        max-height: fit-content;
+    }
 }
 
 
 
 @media screen and (max-width: 576px) {
-    
+    .banner-text-container h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .banner-img-container{
+        width: 100%;
+        max-height: fit-content;
+    }
+    .banner-text-container p{
+        padding-right: 0;
+    }
 }

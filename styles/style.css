@@ -12,11 +12,30 @@ img{
     object-fit: cover;
 }
 
+.section-description{
+    margin: 2rem 0 2rem 0;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.primary-button{
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding: 1.25rem 2.7rem;
+}
+
 
 /* background and size related styles */
 .small{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 header{
@@ -33,13 +52,19 @@ header{
 .banner-text-container,
 .banner-img-container{
     width: 47%;
-    max-height: 800px;
-    
-    border: 2px solid blue;
-}
-.banner-img-container{
     display: flex;
 }
-.banner-img-container img{
-    height: 100%;
+
+.banner-text-container{
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+}
+
+.banner-text-container h1{
+    font-weight: 800;
+    font-size: 5rem;
+}
+.banner-text-container p{
+    padding-right: 4.625rem;
 }
