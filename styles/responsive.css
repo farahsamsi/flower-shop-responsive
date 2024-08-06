@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .banner-container{
+    .banner-container, .flowers-container{
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
@@ -10,7 +10,7 @@
         align-items: center;
     }
 
-    .banner-img-container{
+    .banner-img-container, .img-caption-container{
         width: 80%;
         max-height: fit-content;
     }
@@ -23,11 +23,18 @@
         font-size: 3rem;
         text-align: center;
     }
-    .banner-img-container{
+    .banner-img-container, .img-caption-container{
         width: 100%;
         max-height: fit-content;
     }
     .banner-text-container p{
         padding-right: 0;
+    }
+    .flower-img-container{
+        height: 22rem;
+    }
+    .flower-img-container img{
+        object-fit: cover;
+        height: auto;
     }
 }

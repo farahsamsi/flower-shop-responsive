@@ -12,6 +12,11 @@ img{
     object-fit: cover;
 }
 
+.section-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
 .section-description{
     margin: 2rem 0 2rem 0;
     font-weight: 400;
@@ -75,6 +80,27 @@ header{
 }
 
 /* featured flowers section related styles starts */
+.flowers-container{
+    display: flex;
+    justify-content: space-between;
+}
 
+.img-caption-container{
+    width: 32%;
+    text-decoration: underline;
+}
 
+.flower-img-container{
+    border-radius: 50% 50% 0 0;
+    height: 33.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+.flower-img-container img{
+   object-fit: none;
+   width: 80%;
+   height: 80%;
+}
 /* featured flowers section related styles starts */
