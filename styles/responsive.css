@@ -1,10 +1,10 @@
 @media screen and (max-width: 768px) {
-    .banner-container, .flowers-container{
+    .banner-container, .flowers-container {
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
-
     }
+
     .banner-text-container{
         width: 100%;
         align-items: center;
@@ -13,6 +13,12 @@
     .banner-img-container, .img-caption-container{
         width: 80%;
         max-height: fit-content;
+    }
+    .icons-container{
+        gap: 1.5rem;
+    }
+    .icon-container{
+       width: 30%;
     }
 }
 
@@ -37,4 +43,10 @@
         object-fit: cover;
         height: auto;
     }
+    .icons-container{
+        flex-direction: column;
+    }
+    .icon-container{
+        width: 100%;
+     }
 }

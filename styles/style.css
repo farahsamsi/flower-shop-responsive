@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
     box-sizing: border-box;
 }
 
-img{
+img {
     width: 100%;
     object-fit: cover;
 }
 
-.section-title{
+.section-title {
     font-weight: 800;
     font-size: 2.5rem;
     line-height: 3rem;
 }
-.section-description{
+
+.section-description {
     margin: 2rem 0 2rem 0;
     font-weight: 400;
     font-size: 1.125rem;
@@ -25,7 +26,7 @@ img{
     color: rgba(39, 39, 39, 0.6);
 }
 
-.primary-button{
+.primary-button {
     background-color: rgb(229, 84, 115);
     border: none;
     border-radius: 8px;
@@ -37,60 +38,58 @@ img{
 
 
 /* background and size related styles */
-.small{
+.small {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-section{
-    margin-bottom: 5rem;
-}
-
-header{
+header {
     background-color: #FCEEF1;
 }
 
 
 /* banner section related styles */
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     margin-bottom: 10rem;
 }
+
 .banner-text-container,
-.banner-img-container{
+.banner-img-container {
     width: 47%;
     display: flex;
 }
 
-.banner-text-container{
-   flex-direction: column;
-   justify-content: center;
-   align-items: start;
+.banner-text-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
-.banner-text-container h1{
+.banner-text-container h1 {
     font-weight: 800;
     font-size: 5rem;
 }
-.banner-text-container p{
+
+.banner-text-container p {
     padding-right: 4.625rem;
 }
 
 /* featured flowers section related styles starts */
-.flowers-container{
+.flowers-container {
     display: flex;
     justify-content: space-between;
 }
 
-.img-caption-container{
+.img-caption-container {
     width: 32%;
     text-decoration: underline;
 }
 
-.flower-img-container{
+.flower-img-container {
     border-radius: 50% 50% 0 0;
     height: 33.12rem;
     display: flex;
@@ -98,9 +97,38 @@ header{
     align-items: end;
     margin-bottom: 2rem;
 }
-.flower-img-container img{
-   object-fit: none;
-   width: 80%;
-   height: 80%;
+
+.flower-img-container img {
+    object-fit: none;
+    width: 80%;
+    height: 80%;
 }
+
 /* featured flowers section related styles starts */
+
+
+/* icon section related styles starts */
+.icons-container {
+    margin-top: 8rem;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 5.5rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+    color: rgba(39, 39, 39, 0.8);
+    text-align: center;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.icon-container img {
+    width: auto;
+}
+/* icon section related styles ends*/
