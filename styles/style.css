@@ -125,7 +125,6 @@ header {
     flex-direction: column;
     gap: 1.625rem;
     align-items: center;
-    border: 2px solid red;
 }
 
 .icon-container img {
