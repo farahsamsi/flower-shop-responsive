@@ -38,6 +38,10 @@ img{
     padding: 0 10px;
 }
 
+section{
+    margin-bottom: 5rem;
+}
+
 header{
     background-color: #FCEEF1;
 }
@@ -48,6 +52,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    margin-bottom: 10rem;
 }
 .banner-text-container,
 .banner-img-container{
@@ -68,3 +73,8 @@ header{
 .banner-text-container p{
     padding-right: 4.625rem;
 }
+
+/* featured flowers section related styles starts */
+
+
+/* featured flowers section related styles starts */
