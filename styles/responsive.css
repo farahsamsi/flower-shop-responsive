@@ -1,16 +1,19 @@
 @media screen and (max-width: 768px) {
-    .banner-container, .flowers-container {
+    .banner-container, .flowers-container, .deal-container {
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
     }
+    .deal-container {
+        flex-direction: column-reverse;
+    }
 
-    .banner-text-container{
+    .banner-text-container {
         width: 100%;
         align-items: center;
     }
 
-    .banner-img-container, .img-caption-container{
+    .banner-img-container, .img-caption-container, .deal-child{
         width: 80%;
         max-height: fit-content;
     }
@@ -29,7 +32,7 @@
         font-size: 3rem;
         text-align: center;
     }
-    .banner-img-container, .img-caption-container{
+    .banner-img-container, .img-caption-container, .deal-child img{
         width: 100%;
         max-height: fit-content;
     }

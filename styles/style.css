@@ -127,7 +127,27 @@ header {
     align-items: center;
 }
 
-.icon-container img {
+.icon-container img, .deal-main img {
     width: auto;
 }
 /* icon section related styles ends*/
+
+
+/* hot deal section starts */
+.deal-main{
+    margin-top: 8rem;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 6.5rem 0;
+}
+.deal-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-child{
+    width: 40%;
+}
+
+
+/* hot deal section ends */
