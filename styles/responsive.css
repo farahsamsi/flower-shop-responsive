@@ -99,6 +99,10 @@
         background-size: auto;
         background-repeat: no-repeat;
     }
-    
-
+    .footer-container>.section-description{
+        font-size: .8rem;
+    }
+    .footer-subtitle{
+        font-size: .5rem;
+    }
 }
